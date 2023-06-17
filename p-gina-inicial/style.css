@@ -1,0 +1,43 @@
+body { 
+background-image: url("https://i.pinimg.com/564x/e0/99/d7/e099d7fbc201b8e2536f7038b4177d05.jpg");
+}
+
+
+.idioma{
+  position:relative;
+  border:2px solid white;
+  border-radius:10px;
+  background-color:gray;
+  transition:0.6s
+}
+.idioma:hover{
+  padding:7px;
+}
+
+#taylor{
+  position:relative;
+  height:300px;
+  align:center;
+}
+
+#img{
+  text-align:center;
+}
+
+.texto{
+  position:relative;
+  color:white;
+  text-align:center
+}
+
+#h1{
+  margin-bottom:0;
+  font-family:'Nirvana', serif;
+  text-align:center
+}
+
+#h2{
+  margin-top:0;
+  font-family:'Nirvana', serif;
+  text-align:center
+}

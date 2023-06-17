@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Payment</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1> You´re almost there...</h1>
+<h2> Register with Gmail Now! </h2>
+<div id="gmail"> <img src="https://pngimg.com/uploads/google/google_PNG102344.png" width="150px"> <ul>
+  <li>Email: </li> <input>
+  <li>Password: </li> <input> 
+</div>
+<div> 
+  <h2> Payment Method: </h2>
+  Select your payment method by clicking on one of the boxes: </br>
+  <input type="checkbox"> <b> Credit Card </br>
+  <input type="checkbox"> Debit Card </b> </br>
+</div>
+<h2> Your Data: </h2>
+<div> 
+  <ul>
+  <li><b>Name:</b></li> <input>
+  <li><b>BirthDate:</b></li> <input type="date">
+  <li><b>Identity Document:</b></li> <input>
+  <li><b>Country: </b></li> <input>
+  <li><b>Address: </b></li> <input>
+  </ul></div>
+<h2> Card Info: </h2>
+<div> 
+  <ul>
+  <li><b>Name:</b></li> <input>
+  <li><b>Number:</b></li> <input>
+  <li><b>Validation Code:</b></li> <input>
+  <li><b>Expiration Date: </b></li> <input> 
+  </ul>
+</div>
+
+<div>
+  <input type="checkbox" id="check" onclick="checa()"> I´ve read and accepted the terms and conditions. <button onclick="muda()" id="btn"> +  </button>
+ 
+  <div id="termos" class="desaparece">
+  Introduction<br/>
+These terms and conditions govern your use of our online marketplace ("the Website") and any services provided by us. By accessing the Website, you agree to be bound by these terms and conditions. If you do not agree with any part of these terms, you must refrain from using the Website.<br/>
+
+User Accounts<br/>
+a. To access certain features of the Website, you may be required to create an account. You are responsible for maintaining the confidentiality of your account information and are liable for all activities that occur under your account.
+
+b. You must provide accurate, complete, and up-to-date information during the registration process. You agree to promptly update any changes to your account information.<br/>
+
+Product Listings<br/>
+a. Users may list products for sale on the Website. By listing a product, you warrant that you have the legal right to sell the item and that the information provided is accurate and complete.
+b. The Website may provide features to communicate between buyers and sellers. Any communication conducted through the Website must be lawful, respectful, and related to the transaction.<br/>
+
+Transactions<br/>
+a. All transactions conducted through the Website are solely between the buyer and seller. We are not a party to any transaction and do not guarantee the quality, safety, or legality of any products listed on the Website.
+b. Buyers are responsible for reading and understanding the product descriptions, pricing, shipping details, and any other relevant information provided by the seller before making a purchase.
+
+c. Sellers are responsible for accurately describing their products, fulfilling orders promptly, and resolving any issues related to the sale.<br/>
+
+Intellectual Property<br/>
+a. The Website and its content, including but not limited to text, images, logos, trademarks, and software, are protected by intellectual property laws and remain the property of their respective owners.
+b. You may not use, reproduce, distribute, or modify any part of the Website or its content without the explicit permission of the respective owner.<br/>
+
+Limitation of Liability<br/>
+a. To the extent permitted by law, we shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of or related to your use of the Website or any transactions conducted through it.
+b. We do not guarantee the uninterrupted or error-free operation of the Website and reserve the right to suspend or terminate access to the Website at any time without notice.<br/>
+
+Privacy<br/>
+a. We collect and process personal information in accordance with our privacy policy, which is incorporated by reference into these terms and conditions.<br/>
+
+Governing Law and Jurisdiction<br/>
+These terms and conditions shall be governed by and construed in accordance with the laws of [Jurisdiction]. Any disputes arising out of or relating to these terms shall be subject to the exclusive jurisdiction of the courts of [Jurisdiction].<br/>
+
+Modifications<br/>
+We reserve the right to modify or update these terms and conditions at any time without prior notice. The most current version of the terms will be posted on the Website. Your continued use of the Website after any modifications constitutes acceptance of the updated terms.<br/>
+   </div>
+</div>
+<div >
+  <br/> <br/>
+<div class="desaparece" id="finish">
+  <button>  <a href="../fim-eng/index.html"> Confirm </a> </button></div>
+   <br/>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pagamento</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1> Você está quase lá... </h1>
+
+<h2> Registre-se com Gmail agora! </h2>
+<div id="gmail"> <img src="https://pngimg.com/uploads/google/google_PNG102344.png" width="150px"> <ul>
+  <li>Email: </li> <input>
+  <li>Senha: </li> <input> 
+</div>
+<div> 
+  <h2> Método de Pagamento: </h2>
+  Selecione o seu método de pagamento clicando em uma das caixas: 
+  </br>
+  <input type='checkbox' id="credit"> <b> Cartão de Crédito </br>
+<input type='checkbox' id="debit"> Cartão de Débito</b> </br>
+</div>
+<h2> Seus dados: </h2>
+<div> 
+  <ul>
+  <li><b>Nome:</b></li> <input type='text'>
+  <li><b>Email: </b></li> <input type="email">
+  <li><b>Data de nascimento:</b></li> <input type="date">
+  <li><b>Documento de Identidade:</b></li> <input type='text'>
+  <li><b>País: </b></li> <input type='text'>
+  <li><b>Endereço: </b></li> <input type='text'>
+  </ul></div>
+<h2> Informações do Cartão: </h2>
+<div> 
+  <ul>
+  <li><b>Nome:</b></li> <input>
+  <li><b>Número:</b></li> <input>
+  <li><b>Código de Validação:</b></li> <input>
+  <li><b>Data de Vencimento: </b></li> <input> 
+  </ul>
+</div>
+
+<div>
+  <input type='checkbox' onclick='checa()'> Eu li e concordo com os termos e condições.<button onclick="muda()" id="btn"> +  </button>
+ 
+  <div id="termos" class="desaparece">
+  Introdução<br/>
+Estes termos e condições regem o uso de nosso mercado on-line ("o site") e quaisquer serviços fornecidos por nós. Ao acessar o site, você concorda em ficar vinculado a estes termos e condições. Se você não concorda com qualquer parte destes termos, você deve abster-se de usar o site.
+<br/>
+Contas de Usuário<br/>
+a. Para acessar determinados recursos do site, pode ser necessário criar uma conta. Você é responsável por manter a confidencialidade das informações de sua conta e é responsável por todas as atividades que ocorrem em sua conta.
+
+b. Você deve fornecer informações precisas, completas e atualizadas durante o processo de registro. Você concorda em atualizar imediatamente quaisquer alterações nas informações da sua conta.<br/>
+
+Listagem de Produtos<br/>
+a. Os usuários podem listar produtos para venda no site. Ao listar um produto, você garante que tem o direito legal de vender o item e que as informações fornecidas são precisas e completas.
+b. O Site pode fornecer recursos para comunicação entre compradores e vendedores. Qualquer comunicação realizada através do Site deve ser lícita, respeitosa e relacionada à transação.<br/>
+
+Transações<br/>
+a. Todas as transações realizadas através do site são exclusivamente entre o comprador e o vendedor. Não somos parte de nenhuma transação e não garantimos a qualidade, segurança ou legalidade de quaisquer produtos listados no site.
+b. Os compradores são responsáveis ​​por ler e entender as descrições do produto, preços, detalhes de envio e qualquer outra informação relevante fornecida pelo vendedor antes de fazer uma compra.
+
+c. Os vendedores são responsáveis ​​por descrever com precisão seus produtos, atender pedidos prontamente e resolver quaisquer problemas relacionados à venda.<br/>
+
+Propriedade Intelectual<br/>
+a. O site e seu conteúdo, incluindo mas não limitado a texto, imagens, logotipos, marcas registradas e software, são protegidos por leis de propriedade intelectual e permanecem propriedade de seus respectivos proprietários.
+b. Você não pode usar, reproduzir, distribuir ou modificar qualquer parte do site ou seu conteúdo sem a permissão explícita do respectivo proprietário.<br/>
+
+Limitação de Responsabilidade<br/>
+a. Na medida permitida por lei, não seremos responsáveis ​​por quaisquer danos diretos, indiretos, incidentais, consequenciais ou punitivos decorrentes ou relacionados ao seu uso do site ou quaisquer transações realizadas por meio dele.
+b. Não garantimos a operação ininterrupta ou livre de erros do site e nos reservamos o direito de suspender ou cancelar o acesso ao site a qualquer momento sem aviso prévio.
+
+Ícone "Verificada pela comunidade"
+<br/>
+
+Privacidade<br/<br/P>
+a. Coletamos e processamos informações pessoais de acordo com nossa política de privacidade, incorporada por referência a estes termos e condições.<br/>
+
+Leis Governamentais e Jurisdição<br/>
+Estes termos e condições serão regidos e interpretados de acordo com as leis de [Jurisdição]. Quaisquer disputas decorrentes ou relacionadas a estes termos estarão sujeitas à jurisdição exclusiva dos tribunais de [Jurisdição].<br/>
+
+Modificações<br/>
+Reservamo-nos o direito de modificar ou atualizar estes termos e condições a qualquer momento sem aviso prévio. A versão mais atual dos termos será publicada no site. Seu uso continuado do site após quaisquer modificações constitui aceitação dos termos atualizados.<br/>
+   </div>
+</div>
+
+<div class='desaparece' id='fim'> 
+  <br/>
+  <br/>
+  <button> <a href="../fim-ptbr/index.html"> Confirma </a> </button> 
+</div>
+<br/>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

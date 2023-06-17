@@ -1,0 +1,62 @@
+body { 
+  background-image: url("https://i.pinimg.com/564x/e0/99/d7/e099d7fbc201b8e2536f7038b4177d05.jpg");
+  color: white;
+}
+
+button{
+  border: solid 2px gray;
+  border-radius: 50px;
+  background-color: white;
+  align: center;
+  transition: 0.3s;
+}
+
+button:hover{
+  border: solid 2px darkgrey; 
+}
+
+#btn{
+  color: black;
+  border: none;
+}
+
+#termos{
+  border: solid 1px black;
+  color: black;
+  background-color: lightgray;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.desaparece {
+  display: none;
+}
+
+#finish{
+  text-align: center;
+}
+#finish > button{
+  transform: scale(2);
+  border: solid 2px white;
+  background-color: lightgray;
+  transition: 0.2s;
+}
+
+#finish > button:hover{
+  border: solid 1px white;
+}
+ #gmail{
+  border: solid 2px gray;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  width: 300px;
+  margin-left: 30%;
+}
+
+#gmail > img{
+  margin-left: 25%;
+}
+#gmail > ul{
+  list-style-type: none;
+}

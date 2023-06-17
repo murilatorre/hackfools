@@ -1,0 +1,66 @@
+body { 
+background-image: url("https://i.pinimg.com/564x/e0/99/d7/e099d7fbc201b8e2536f7038b4177d05.jpg");  
+  color: white;
+}
+
+button{
+  border: solid 2px gray;
+  border-radius: 50px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+button:hover{
+  border: solid 2px darkgrey; 
+}
+
+button:active, button:visited{
+  background-color: lightblue;
+}
+
+#btn{
+  color: black;
+  border: none;
+}
+
+#termos{
+  border: solid 1px black;
+  border-radius: 15px;
+  padding: 15px;
+  background-color:lightgray;
+  color:black;
+}
+
+.desaparece {
+  display: none;
+}
+
+#gmail{
+  border: solid 2px gray;
+  border-radius: 15px;
+  width: 300px;
+  margin-left: 30%;
+  background-color:white;
+  color: black;
+}
+
+#gmail > img{
+  margin-left: 25%;
+}
+#gmail > ul{
+  list-style-type: none;
+}
+
+#fim{
+  text-align:center
+}
+
+#fim > button{
+  transform: scale(2);
+  border: solid 2px white;
+  background-color: lightgray;
+  transition: 0.2s;
+}
+
+#fim > button:hover{
+  border: solid 1px white;
